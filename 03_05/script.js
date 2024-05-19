@@ -1,7 +1,3 @@
-/**
- * Create a Backpack object.
- */
-
 const backpack = {
   name: "Everyday Backpack",
   volume: 30,
@@ -20,3 +16,6 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+console.log("The backpack object:", backpack);
+console.log("The Pocket number value is:", backpack.pocketNum);
